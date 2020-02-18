@@ -1,0 +1,4 @@
+CATEGORIES = [
+    '__background',
+    '',
+]
