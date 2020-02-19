@@ -48,6 +48,7 @@ note = {Accessed: [Insert date here]}
 
 License
 ------------------
+The code is used for academic purpose only.
 Free software: [MIT license](https://github.com/ltnghia/Object_Annotation_Interface/blob/master/LICENSE).
 
 Contact: [Trung-Nghia Le](https://sites.google.com/view/ltnghia).
