@@ -46,9 +46,8 @@ note = {Accessed: [Insert date here]}
   Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
   Tech report 2020.
 
-License
 ------------------
-Free software: [MIT license](https://github.com/ltnghia/Object_Annotation_Interface/blob/master/LICENSE).
+The code is used for academic purpose only.
 
 Contact: [Trung-Nghia Le](https://sites.google.com/view/ltnghia).
 
