@@ -19,7 +19,7 @@ except ImportError:
 
 
 def train(cfg, args, DatasetCatalog=None):
-    if len(cfg.DATASETS.TRAIN) == 0 or args.skip_train:
+    if len(cfg.DATASETS.TRAIN) == 0 or not args.train:
         return None
 
     local_rank = args.local_rank

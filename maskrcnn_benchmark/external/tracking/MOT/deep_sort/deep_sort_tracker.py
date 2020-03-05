@@ -124,7 +124,8 @@ class DeepSortTracker(object):
 
             ori_im = draw_bboxes(ori_im, bbox_xyxy, identities=identities)
             ori_im = draw_bboxes0(ori_im, bbox_xyxy2, color=(144,238,144))
-            cv2.imwrite(os.path.join(dir_output_img, os.path.basename(dir_image)), ori_im)
+            if dir_output_img:
+                cv2.imwrite(os.path.join(dir_output_img, os.path.basename(dir_image)), ori_im)
             if visualization:
                 cv2.imshow('demo', ori_im)
                 cv2.waitKey(1)
