@@ -42,9 +42,9 @@ note = {Accessed: [Insert date here]}
   Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
   In proceeding WACV 2020.
   
- - Attention R-CNN for Accident Detection. 
+ - [Attention R-CNN for Accident Detection] (https://sites.google.com/view/ltnghia/research/accident-detection). 
   Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
-  Tech report 2020.
+  In proceeding IV 2020.
 
 ------------------
 The code is used for academic purpose only.
