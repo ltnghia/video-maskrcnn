@@ -27,6 +27,15 @@ Please consider citing this project in your publications if it helps your resear
 ```
 
 ```
+@Inproceedings{ltnghia-IV2020,
+  Title          = {Attention R-CNN for Accident Detection},
+  Author         = {Trung-Nghia Le and Akihiro Sugimoto and Shintaro Ono and Hiroshi Kawasaki},
+  BookTitle      = {IEEE Intelligent Vehicles Symposium},
+  Year           = {2020},
+}
+```
+
+```
 @misc{massa2018mrcnn,
 author = {Massa, Francisco and Girshick, Ross},
 title = {{maskrcnn-benchmark: Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch}},
