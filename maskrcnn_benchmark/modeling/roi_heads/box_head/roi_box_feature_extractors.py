@@ -121,10 +121,7 @@ class FPNXconv1fcFeatureExtractor(nn.Module):
         self.fc6 = make_fc(input_size, representation_size, use_gn=False)
         self.out_channels = representation_size
 
-        if cfg.MODEL.ROI_BOX_HEAD.ATTENTION_ON:
-            self.regional_attention = RegionalAttention(cfg, in_channels, self.pooler, resolution)
-        else:
-            self.regional_attention = None
+        self.regional_attention = None
 
     def forward(self, x, proposals, global_features=None):
         if self.regional_attention is not None:
