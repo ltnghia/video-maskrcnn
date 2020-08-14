@@ -6,7 +6,6 @@ from ..box_head.roi_box_feature_extractors import ResNet50Conv5ROIFeatureExtract
 from maskrcnn_benchmark.modeling import registry
 from maskrcnn_benchmark.modeling.pooler import make_pooler, make_contextual_pooler
 from maskrcnn_benchmark.modeling.make_layers import make_conv3x3, group_norm, make_blocks
-from maskrcnn_benchmark.modeling.attention_mechanism.regional_attention import RegionalAttention
 
 
 registry.ROI_MASK_FEATURE_EXTRACTORS.register(
@@ -60,10 +59,7 @@ class MaskRCNNFPNFeatureExtractor(nn.Module):
 
         self.out_channels = next_feature
 
-        if cfg.MODEL.ROI_MASK_HEAD.ATTENTION_ON:
-            self.regional_attention = RegionalAttention(cfg, in_channels, self.pooler, resolution)
-        else:
-            self.regional_attention = None
+        self.regional_attention = None
 
     def forward(self, x, proposals, global_features=None):
         if self.regional_attention is not None:
