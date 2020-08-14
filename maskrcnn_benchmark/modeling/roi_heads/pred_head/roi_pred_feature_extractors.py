@@ -6,7 +6,6 @@ from maskrcnn_benchmark.modeling import registry
 from maskrcnn_benchmark.modeling.backbone import resnet
 from maskrcnn_benchmark.modeling.pooler import make_pooler, make_contextual_pooler
 from maskrcnn_benchmark.modeling.make_layers import make_fc, make_blocks
-from maskrcnn_benchmark.modeling.attention_mechanism.regional_attention import RegionalAttention
 
 
 @registry.ROI_PRED_FEATURE_EXTRACTORS.register("ResNet50Conv5ROIFeatureExtractor")
@@ -119,10 +118,7 @@ class FPNXconv1fcFeatureExtractor(nn.Module):
         self.pred_fc6 = make_fc(input_size, representation_size, use_gn=False)
         self.out_channels = representation_size
 
-        if cfg.MODEL.ROI_PRED_HEAD.ATTENTION_ON:
-            self.regional_attention = RegionalAttention(cfg, in_channels, self.pooler, self.resolution)
-        else:
-            self.regional_attention = None
+        self.regional_attention = None
 
     def forward(self, x, proposals, global_features=None):
         if self.regional_attention is not None:
