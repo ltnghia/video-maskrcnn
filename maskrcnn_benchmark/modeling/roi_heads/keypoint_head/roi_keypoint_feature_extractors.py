@@ -5,7 +5,6 @@ from maskrcnn_benchmark.modeling import registry
 from maskrcnn_benchmark.modeling.pooler import make_pooler, make_contextual_pooler
 from maskrcnn_benchmark.layers import Conv2d
 from maskrcnn_benchmark.modeling.make_layers import make_conv3x3
-from maskrcnn_benchmark.modeling.attention_mechanism.regional_attention import RegionalAttention
 
 
 @registry.ROI_KEYPOINT_FEATURE_EXTRACTORS.register("KeypointRCNNFeatureExtractor")
@@ -37,10 +36,7 @@ class KeypointRCNNFeatureExtractor(nn.Module):
             next_feature = layer_features
             self.blocks.append(layer_name)
         self.out_channels = layer_features
-        if cfg.MODEL.ROI_KEYPOINT_HEAD.ATTENTION_ON:
-            self.regional_attention = RegionalAttention(cfg, in_channels, self.pooler, resolution)
-        else:
-            self.regional_attention = None
+        self.regional_attention = None
 
     def forward(self, x, proposals, global_features=None):
         if self.regional_attention is not None:
