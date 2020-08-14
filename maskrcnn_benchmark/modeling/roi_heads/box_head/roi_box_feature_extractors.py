@@ -7,7 +7,6 @@ from maskrcnn_benchmark.modeling import registry
 from maskrcnn_benchmark.modeling.backbone import resnet
 from maskrcnn_benchmark.modeling.pooler import make_pooler, make_contextual_pooler
 from maskrcnn_benchmark.modeling.make_layers import group_norm, make_fc, make_conv3x3, make_blocks
-from maskrcnn_benchmark.modeling.attention_mechanism.regional_attention import RegionalAttention
 
 
 @registry.ROI_BOX_FEATURE_EXTRACTORS.register("ResNet50Conv5ROIFeatureExtractor")
