@@ -9,7 +9,7 @@ import torch
 import numpy as np
 
 from torch.autograd import Variable
-from ..utils.utils import load_yaml, get_subwindow_tracking, python2round, generate_anchor
+from maskrcnn_benchmark.external.tracking.SOT.SiamDW.lib.utils.utils import load_yaml, get_subwindow_tracking, python2round, generate_anchor
 
 
 class SiamRPN(object):
