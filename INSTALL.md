@@ -46,8 +46,8 @@ python setup.py install --cuda_ext --cpp_ext
 
 # install PyTorch Detection
 cd $INSTALL_DIR
-git clone https://github.com/facebookresearch/maskrcnn-benchmark.git
-cd maskrcnn-benchmark
+git clone https://github.com/ltnghia/video-maskrcnn.git
+cd video-maskrcnn
 
 # the following will install the lib with
 # symbolic links, so that you can modify
