@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 
 from torch.autograd import Variable
-from ..utils.utils import load_yaml, im_to_torch, get_subwindow_tracking, make_scale_pyramid
+from maskrcnn_benchmark.external.tracking.SOT.SiamDW.lib.utils.utils import load_yaml, im_to_torch, get_subwindow_tracking, make_scale_pyramid
 
 
 class SiamFC(object):
