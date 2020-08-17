@@ -6,3 +6,5 @@ tqdm
 visdom
 tensorboardX
 tensorboard_logger
+tensorboard
+future
