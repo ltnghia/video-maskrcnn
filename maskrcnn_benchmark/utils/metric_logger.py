@@ -88,7 +88,7 @@ class TensorboardXLogger(MetricLogger):
 
     def update(self, iteration, **kwargs):
         super(TensorboardXLogger, self).update(**kwargs)
-        if self.writer:
+        if self.writer is not None:
             self.writer.update(iteration, **kwargs)
 
 
