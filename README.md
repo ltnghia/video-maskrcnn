@@ -3,8 +3,6 @@ Video Mask R-CNN
 
 ![](munster_000098_000019_leftImg8bit.jpg)
 
-This work is heavily based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
-
 We tested the code on PyTorch 1.2.0 and CUDA 10.1
 
 ## Installation
@@ -13,6 +11,10 @@ Check [INSTALL.md](INSTALL.md) for installation instructions.
 
 ## Troubleshooting
 Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
+
+## Acknowledgement
+
+This work is heavily based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
 
 ## Citations
 Please consider citing this project in your publications if it helps your research:
@@ -32,16 +34,6 @@ Please consider citing this project in your publications if it helps your resear
   Author         = {Trung-Nghia Le and Akihiro Sugimoto and Shintaro Ono and Hiroshi Kawasaki},
   BookTitle      = {IEEE Intelligent Vehicles Symposium},
   Year           = {2020},
-}
-```
-
-```
-@misc{massa2018mrcnn,
-author = {Massa, Francisco and Girshick, Ross},
-title = {{maskrcnn-benchmark: Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch}},
-year = {2018},
-howpublished = {\url{https://github.com/facebookresearch/maskrcnn-benchmark}},
-note = {Accessed: [Insert date here]}
 }
 ```
 
