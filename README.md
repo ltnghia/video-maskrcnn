@@ -47,8 +47,11 @@ Please consider citing this project in your publications if it helps your resear
   Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
   In proceeding IV 2020.
 
-------------------
+## License
+
 The code is used for academic purpose only.
 
-Contact: [Trung-Nghia Le](https://sites.google.com/view/ltnghia).
+## Contact
+
+[Trung-Nghia Le](https://sites.google.com/view/ltnghia).
 
