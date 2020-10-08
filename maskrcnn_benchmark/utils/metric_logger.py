@@ -116,7 +116,7 @@ class TensorboardXWriter:
         self._writer = SummaryWriter(log_dir, **kwargs)
 
     def update(self, iteration, **kwargs):
-        if self._writer:
+        if self._writer is not None:
             for k, v in kwargs.items():
                 if isinstance(v, torch.Tensor):
                     v = v.item()
