@@ -12,10 +12,6 @@ Check [INSTALL.md](INSTALL.md) for installation instructions.
 ## Troubleshooting
 Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
-## Acknowledgement
-
-This work is heavily based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
-
 ## Citations
 Please consider citing this project in your publications if it helps your research:
 
@@ -50,6 +46,11 @@ Please consider citing this project in your publications if it helps your resear
 ## License
 
 The code is used for academic purpose only.
+
+
+## Acknowledgement
+
+This work is heavily based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
 
 ## Contact
 
