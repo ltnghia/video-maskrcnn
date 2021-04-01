@@ -14,11 +14,11 @@ Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
 ## Projects using Video Mask R-CNN
 
-- [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://github.com/ltnghia/video-maskrcnn/Projects/Video-Self-Annotation). 
+- [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](Projects/Video-Self-Annotation). 
   Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
   In proceeding WACV 2020.
   
- - [Attention R-CNN for Accident Detection](https://github.com/ltnghia/video-maskrcnn/Projects/Attention-RCNN). 
+ - [Attention R-CNN for Accident Detection](Projects/Attention-RCNN). 
   Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
   In proceeding IV 2020.
    
