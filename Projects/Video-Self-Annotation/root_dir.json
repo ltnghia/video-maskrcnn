@@ -1,0 +1,1 @@
+{"dataset_dir": "/mnt/sdc/Backup_From_sdb/WACV2020/Tutorial_ARA/CityScapes/val/Dataset", "dataset_name": "CityScapes_val", "training_dir": "/mnt/sdc/Backup_From_sdb/WACV2020/Tutorial_ARA/CityScapes/val/Train", "annotated_video": "CityScapes_val", "experiment": "Entire_dataset/Iter_3", "iter": 3}

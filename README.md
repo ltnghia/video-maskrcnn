@@ -12,6 +12,16 @@ Check [INSTALL.md](INSTALL.md) for installation instructions.
 ## Troubleshooting
 Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
+## Projects using Video Mask R-CNN
+
+- [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://github.com/ltnghia/video-maskrcnn/Projects/Video-Self-Annotation). 
+  Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
+  In proceeding WACV 2020.
+  
+ - [Attention R-CNN for Accident Detection](https://github.com/ltnghia/video-maskrcnn/Projects/Attention-RCNN). 
+  Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
+  In proceeding IV 2020.
+   
 ## Citations
 Please consider citing this project in your publications if it helps your research:
 
@@ -24,24 +34,7 @@ Please consider citing this project in your publications if it helps your resear
 }
 ```
 
-```
-@Inproceedings{ltnghia-IV2020,
-  Title          = {Attention R-CNN for Accident Detection},
-  Author         = {Trung-Nghia Le and Akihiro Sugimoto and Shintaro Ono and Hiroshi Kawasaki},
-  BookTitle      = {IEEE Intelligent Vehicles Symposium},
-  Year           = {2020},
-}
-```
 
-## Projects using Video Mask R-CNN
-
-- [Toward Interactive Self-Annotation For Video Object Bounding Box: Recurrent Self-Learning And Hierarchical Annotation Based Framework](https://sites.google.com/view/ltnghia/research/video-self-annotation). 
-  Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
-  In proceeding WACV 2020.
-  
- - [Attention R-CNN for Accident Detection](https://sites.google.com/view/ltnghia/research/accident-detection). 
-  Trung-Nghia Le, Akihiro Sugimoto, Shintaro Ono, and Hiroshi Kawasaki.
-  In proceeding IV 2020.
 
 ## License
 
